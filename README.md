@@ -194,7 +194,7 @@ Building software systems and exploring the engineering behind modern technology
 
 ---
 
-# 04 // ACTIVE PROJECTS & OPERATIONS
+
 # 04 // ACTIVE PROJECTS & OPERATIONS
 
 <div align="center">
