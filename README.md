@@ -207,11 +207,14 @@ Building software systems and exploring the engineering behind modern technology
 
 <!-- CBI:AUTO:PROJECTS:START -->
 
-<div align="center">
+<div align="center"><sub>LAST SYNCHRONIZATION: 2026-11-22 21:03 UTC</sub></div>
 
-`INITIALIZING PROJECT REGISTRY...`
-
-</div>
+<table width="100%">
+<tr><th>PROJECT</th><th>TECHNOLOGY</th><th>LAST UPDATED</th></tr>
+<tr><td><a href='https://github.com/Tutophy/portfolio'><b>portfolio</b></a><br/><sub>Personal portfolio of Bendaas Zin Eddine — Network Administration, Cybersecurity, IT Projects, Certifications, and Profe</sub></td><td>HTML</td><td>2026-10-20</td></tr>
+<tr><td><a href='https://github.com/Tutophy/PROFESSEUR-ZIN-EDDINE'><b>PROFESSEUR-ZIN-EDDINE</b></a><br/><sub>Technical research and development.</sub></td><td>HTML</td><td>2026-08-15</td></tr>
+<tr><td><a href='https://github.com/Tutophy/fivem-whitelist'><b>fivem-whitelist</b></a><br/><sub>Technical research and development.</sub></td><td>TypeScript</td><td>2026-07-06</td></tr>
+</table>
 
 <!-- CBI:AUTO:PROJECTS:END -->
 
