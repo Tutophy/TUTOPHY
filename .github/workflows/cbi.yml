@@ -1,0 +1,49 @@
+
+name: CBI Intelligence Automation
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cbi-intelligence
+  cancel-in-progress: true
+
+jobs:
+  intelligence-update:
+    name: CBI Project Registry Update
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Initialize Intelligence Environment
+        uses: actions/checkout@v4
+
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Execute CBI Intelligence Engine
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python scripts/cbi_registry.py
+
+      - name: Commit Intelligence Report
+        run: |
+          git config user.name "CBI Intelligence Engine"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "CBI: Update intelligence project registry"
+            git push
+          fi
