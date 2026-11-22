@@ -75,7 +75,6 @@ CBI is a personal research and technology identity, not a government agency or l
 
 ### SUBJECT PROFILE
 
-**Name:** Zin Eddine Bendaas
 
 **Professional Identity:** Tutophy
 
@@ -196,63 +195,25 @@ Building software systems and exploring the engineering behind modern technology
 ---
 
 # 04 // ACTIVE PROJECTS & OPERATIONS
+# 04 // ACTIVE PROJECTS & OPERATIONS
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/PROJECT%20ARCHIVES-OPEN-142A43?style=for-the-badge&labelColor=071321"/>
+<img src="https://img.shields.io/badge/CBI%20PROJECT%20REGISTRY-AUTOMATED-142A43?style=for-the-badge&labelColor=071321"/>
+
+*Automatically synchronized from public GitHub repositories.*
 
 </div>
 
-### PROJECT 001 — TERVIAX
+<!-- CBI:AUTO:PROJECTS:START -->
 
-<img src="https://img.shields.io/badge/DOMAIN-HEALTHTECH-142A43?style=flat-square&labelColor=071321"/>
-<img src="https://img.shields.io/badge/TYPE-SOFTWARE%20ENGINEERING-142A43?style=flat-square&labelColor=071321"/>
+<div align="center">
 
-A connected digital healthcare ecosystem designed to integrate human and veterinary healthcare services into a unified technological platform.
+`INITIALIZING PROJECT REGISTRY...`
 
-**Core architecture:**
-- Digital medical records
-- Patient and veterinary management
-- Healthcare organizations
-- Appointment management
-- Connected healthcare services
-- API-driven architecture
+</div>
 
-[EXPLORE PROJECT](https://github.com/Tutophy)
-
----
-
-### PROJECT 002 — CYBER RESEARCH LAB
-
-<img src="https://img.shields.io/badge/DOMAIN-CYBERSECURITY-142A43?style=flat-square&labelColor=071321"/>
-<img src="https://img.shields.io/badge/TYPE-TECHNICAL%20RESEARCH-142A43?style=flat-square&labelColor=071321"/>
-
-An evolving personal research environment for cybersecurity experimentation and technical investigation.
-
-**Research areas:**
-- Linux security environments
-- Network analysis
-- Web application security
-- Vulnerability assessment
-- Authorized security testing
-- Practical security laboratories
-
----
-
-### PROJECT 003 — DIGITAL INTELLIGENCE ARCHIVE
-
-<img src="https://img.shields.io/badge/DOMAIN-DIGITAL%20INVESTIGATION-142A43?style=flat-square&labelColor=071321"/>
-
-A structured collection of technical research, investigation notes, security documentation and knowledge developed through continuous learning.
-
-**Archive objectives:**
-- Document technical findings
-- Analyze security concepts
-- Study attack and defense methodologies
-- Maintain reproducible laboratory notes
-- Develop investigative thinking
-
----
+<!-- CBI:AUTO:PROJECTS:END -->
 
 # 05 // VERIFIED CREDENTIALS
 
